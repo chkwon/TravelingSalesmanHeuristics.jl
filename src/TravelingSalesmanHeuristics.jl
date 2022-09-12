@@ -258,7 +258,7 @@ Generate a TSP path using the farthest insertion strategy. `distmat` must be a s
 Return a tuple `(path, cost)`.
 
 ### Optional arguments:
-- `firstCity::Int`: specifies the city to begin the path on. Not specifying a value corresponds
+- `firstcity::Int`: specifies the city to begin the path on. Not specifying a value corresponds
     to random selection.
 - `do2opt::Bool = true`: whether to improve the path by 2-opt swaps.
 """
